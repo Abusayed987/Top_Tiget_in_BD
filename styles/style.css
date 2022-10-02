@@ -1,0 +1,30 @@
+* {
+    margin: 0 auto;
+    font-family: 'Poppins', sans-serif;
+
+}
+#header_section{
+    background-color: #000000;
+    text-align: center;
+}
+header h1 {
+
+    color: #FF5E19;
+    /* font-family:fantasy; */
+    font-family:cursive;
+    padding-top: 128px;
+    font-weight: 400;
+    font-size: 56px;
+    line-height: 94px;
+    margin-bottom: 28px;
+}
+
+header p {
+   max-width: 1200px; /*  mone rekho max-width */
+    color: #ffffff;
+    font-size:18px;
+    line-height: 30px;
+    letter-spacing: -0.02em;
+    padding-bottom: 100px;
+    font-family:sans-serif;
+}
