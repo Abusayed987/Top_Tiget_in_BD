@@ -25,19 +25,93 @@
         </div>
     </header>
     <main>
-        <section id="select_player">
-            <div>
-                <img src="" alt="">
-                <h4></h4>
-                <button></button>
-            </div>
-        </section>
-        <section id="calculate_section">
+        <section id="main_section">
+            <section id="select_player">
+                <div class="card_group">
+                    <div class="card">
+                        <img src="images/player02-taskin.jpg" alt="">
+                        <h4>Taskin Ahmed</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player01-sakib.jpg" alt="">
+                        <h4>Skib Al Hasan</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player04-mosaddek.jpg" alt="">
+                        <h4>Mosaddek Hossain</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player03-mehedi.jpg" alt="">
+                        <h4>Mehedi Hasan</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player05-soumya.jpg" alt="">
+                        <h4>Soumya Sarker</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player06-Mustafizur.jpg" alt="">
+                        <h4>Mustafizur Rahman</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player07-LitonDas.jpg" alt="">
+                        <h4>Liton Dash</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player08-abuHider.jpg" alt="">
+                        <h4>Abu Hider</h4>
+                        <button class="btn_select">Select</button>
+                    </div>
+                    <div class="card">
+                        <img src="images/player10-saifuddin.jpg" alt="">
+                        <h4>Shaifuddin</h4>
+                        <button id="btn_select">Select</button>
+                    </div>
 
+                </div>
+            </section>
+            <section id="calculate_section">
+                <div class="cal_group">
+                    <div class="calculate_card">
+                        <h3>Selected - Player</h3>
+                        <hr class="calculate_hr">
+                        <ol id="selected_container">
+                            <li>Skib Al Hasan</li>
+                            <!--only akta maybe tao sure nah-->
+                            <li>Skib Al Hasan</li>
+                            <li>Skib Al Hasan</li>
+                            <li>Skib Al Hasan</li>
+                            <li>Skib Al Hasan</li>
+                        </ol>
+                    </div>
+                </div>
+                <div class="cal_card_group">
+                    <div class="calculate_card2">
+                        <h3>Budget</h3>
+                        <hr class="calculate_hr">
+                        Per Player: <input type="text">
+                        <button id="btn_calculate">Calculate</button>
+                        <h4>Player Expenses : $ <span>5000</span></h4>
+                        <br>
+                        Manager: <input type="text"> <br><br>
+                        Coach : <input type="text">
+                        <button id="btn_calculate_total">Calculate Total</button>
+                        <h4>Total : $ <span>5000</span></h4>
+                    </div>
+                </div>
+            </section>
         </section>
+
     </main>
+    <hr id="last_hr">
     <footer>
-
+        <p>Copyright @ 2022 All Rights Reserved by Abu Sayed</p>
     </footer>
     <script src="js/utility.js"></script>
     <script src="js/index.js"></script>
