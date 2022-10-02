@@ -36,11 +36,12 @@ main {
     background-color: #151515;
 }
 
-#main_section{
+#main_section {
     display: flex;
-    max-width: 1220px;  
+    max-width: 1220px;
     margin: 0 auto;
 }
+
 #select_player {
     width: 70%;
 }
@@ -79,6 +80,7 @@ button {
     margin: 20px;
     line-height: 22px;
     padding: 8px 70px;
+    border-radius: 2px;
 }
 
 #last_hr {
@@ -119,15 +121,17 @@ footer p {
     padding-left: 80px;
     padding-bottom: 30px;
 }
-#selected_container li{
+
+#selected_container li {
     line-height: 30px;
 }
-.calculate_card2{
+
+.calculate_card2 {
     font-size: 19px;
     line-height: 22px;
     /* identical to box height */
-    
-    
+
+
     color: #AFAFAF;
     /* color: #ffffff; */
     text-align: center;
@@ -137,14 +141,19 @@ footer p {
     padding: 30px 0;
 
 }
-.calculate_card2 h3{
+
+.calculate_card2 h3 {
     color: #ffffff;
 }
-.calculate_card2 h4{
+
+.calculate_card2 h4 {
     font-size: 18px;
     color: #ffffff;
 }
-#per_player_field,#manager_field,#coach_field{
+
+#per_player_field,
+#manager_field,
+#coach_field {
     width: 40%;
     color: #ffffff;
     background: #000000;
@@ -152,14 +161,18 @@ footer p {
     padding: 3px;
     font-size: 18px;
 }
-#coach_field{
+
+#coach_field {
     padding-left: 20px;
 }
-#btn_calculate_total{
+
+#btn_calculate_total {
     line-height: 22px;
-    padding: 8px 50px;  
+    padding: 8px 50px;
     /* display: none; */
 }
-#total_expense_element,.color{
+
+#total_expense_element,
+.color {
     color: #FF5E19;
 }
