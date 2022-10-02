@@ -123,17 +123,43 @@ footer p {
     line-height: 30px;
 }
 .calculate_card2{
-    color: #ffffff;
+    font-size: 19px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    
+    color: #AFAFAF;
+    /* color: #ffffff; */
     text-align: center;
     margin-top: 90px;
     border: 1px solid #434343;
     background-color: #000000;
+    padding: 30px 0;
+
+}
+.calculate_card2 h3{
+    color: #ffffff;
+}
+.calculate_card2 h4{
+    font-size: 18px;
+    color: #ffffff;
+}
+#per_player_field,#manager_field,#coach_field{
+    width: 40%;
+    color: #ffffff;
+    background: #000000;
+    border: 1px solid #717171;
+    padding: 3px;
+    font-size: 18px;
+}
+#coach_field{
+    padding-left: 20px;
 }
 #btn_calculate_total{
     line-height: 22px;
     padding: 8px 50px;  
     /* display: none; */
 }
-.calculate_card2 div{
-    text-align: center;
+#total_expense_element,.color{
+    color: #FF5E19;
 }

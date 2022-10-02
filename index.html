@@ -95,14 +95,16 @@
                     <div class="calculate_card2">
                         <h3>Budget</h3>
                         <hr class="calculate_hr">
-                        Per Player: <input type="text">
-                        <button id="btn_calculate">Calculate</button>
-                        <h4>Player Expenses : $ <span>5000</span></h4>
                         <br>
-                        Manager: <input type="text"> <br><br>
-                        Coach : <input type="text">
+                        Per Player: <input id="per_player_field" type="text"> <br> 
+                        <button id="btn_calculate">Calculate</button> <br> 
+                        <h4>Player Expenses : <span class="color">$ <span id="player_expense_element">5000</span></span></h4>
+                        <br><br>
+                        Manager: <input id="manager_field" type="text"> <br><br>
+                        Coach : <input id="coach_field" type="text">
                         <button id="btn_calculate_total">Calculate Total</button>
-                        <h4>Total : $ <span>5000</span></h4>
+                        <h4>Total : <span class="color">$</span> <span id="total_expense_element">5000</span></h4>
+
                     </div>
                 </div>
             </section>
