@@ -33,24 +33,22 @@ function getElementStringById(elementId) {
     return elementFieldString;
 }
 
-// function for append a child 
-function selectedPlayer(parentDivId, childName) {
-    const parentContainer = document.getElementById(parentDivId);
-    const li = document.createElement('li');
-    li.innerText = childName;
-    parentContainer.appendChild(li);
+// function for append a child and disable this button!
+function selectedPlayer(parentDivId, childName, disabledBtnId) {
+    let totalChildNumber = document.getElementById('selected_container').childElementCount;
+    if (totalChildNumber === 5) {
+        alert('You are Selected maximum 5 players for top 5 !');
+    }
+    else{
+        const parentContainer = document.getElementById(parentDivId);
+        const li = document.createElement('li');
+        li.innerText = childName;
+        parentContainer.appendChild(li);
+
+        document.getElementById(disabledBtnId).disabled = true;
+        document.getElementById(disabledBtnId).style.backgroundColor = "#A2A9AF";
+   }
 }
 
-//function for button disabled
-function buttonDisable(buttonId) {
-    document.getElementById(buttonId).disabled = true;
-    document.getElementById(buttonId).style.backgroundColor = "#A2A9AF";
-}
 
-// function for alert More Then top Five
-// function alertMoreThen5(totalChildNumber) {
-//     if (totalChildNumber > 5) {
-//         alert('You are Selected Maximum 5 Players fot Top 5!')
-//     }
-    
-// }
+
