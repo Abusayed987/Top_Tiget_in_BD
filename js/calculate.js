@@ -27,4 +27,3 @@ document.getElementById('btn_calculate_total').addEventListener('click', functio
     setTextElementeById('total_expense_element', allTotalExpenses)
 })
 
-

@@ -37,7 +37,7 @@ function getElementStringById(elementId) {
 function selectedPlayer(parentDivId, childName, disabledBtnId) {
     let totalChildNumber = document.getElementById('selected_container').childElementCount;
     if (totalChildNumber === 5) {
-        alert('You are Selected maximum 5 players for top 5 !');
+        alert('You can select up to 5 players for Top Tigers!');
     }
     else{
         const parentContainer = document.getElementById(parentDivId);
